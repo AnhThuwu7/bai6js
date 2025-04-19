@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.login-form {
+    border: 1px solid black;
+    width: 300px;
+    margin: 50px auto;
+    padding: 10px;
+}
+.login-form table {
+    width: 100%;
+}
+.login-form th {
+    font-size: 18px;
+    text-align: center;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 95%;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.login-form input[type="submit"] {
+    padding: 5px 15px;
+}
+.change-password {
+    text-align: right;
+    padding-top: 5px;
+}
+.change-password a {
+    color: blue;
+    text-decoration: none;
+    font-style: italic;
+}
+.change-password a:hover {
+    text-decoration: underline;
+}
